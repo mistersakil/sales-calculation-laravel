@@ -1,0 +1,65 @@
+
+/* Responsive CSS for medium  */
+
+@media screen and (max-width: 992px){
+    .product_name{
+	    top: 1%;
+	    left: 20%;
+	    font-size: 26px;
+	    width: 60%;
+	}
+
+}
+
+@media screen and (min-width: 768px){
+    .tile_count .tile_stats_count .count {
+        font-size: 30px;
+    }
+}
+
+/* Small device */
+
+@media (max-width: 767px) {
+
+	.form_area{
+		background: #f7f7f7;
+		padding: 20px 5px;
+		width: 100%;
+	}
+	.form_area:last-of-type{
+		width: 100%;
+		margin-left: 0%
+	}
+    .product_name{
+	    top: 1%;
+	    left: 0%;
+	    font-size: 20px;
+	    width: 100%;
+	    text-align: left;
+	    margin-left: 12%;
+	}
+}
+
+
+@media (max-width: 467px) {
+
+    .product_name{
+	    top: 18%;
+	    left: 0%;
+	    font-size: 16px;
+	    width: 100%;
+	    text-align: left;
+	    margin-left: 12.5%;
+	}
+	.product_name span{
+		display: none;
+	}
+}
+@media (max-width: 310px) {
+
+    .product_name{
+	    top: 40%;
+	    font-size: 20px;
+	}
+}
+

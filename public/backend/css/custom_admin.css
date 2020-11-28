@@ -1,0 +1,196 @@
+
+/* Overwriten CSS Likaspro.com */
+body {
+    font-family: "Siyamrupali", "Helvetica Neue",Roboto,Arial,"Droid Sans",sans-serif;    
+}
+.form_area{
+	background: #f7f7f7;
+	padding: 20px 5px;
+	width: 70%;
+}
+.form_area:last-of-type{
+	width: 28%;
+	margin-left: 2%
+}
+
+.home_settings .btn-group{
+    margin-top: 22px;
+}
+.text_left{
+	text-align: left !important;
+}
+.thumbnail {
+    height: 280px;
+}
+.thumbnail .image {
+    height: 75%;
+}
+.view .content, .view .mask {
+    height: 100%;
+}
+
+.view .tools {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 5px;
+}
+
+.input-group + .help-block{
+    margin: 2px 0px;
+}
+
+.x_title h2 {
+    padding: 4px 0 3px 0px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #402877;
+}
+
+.tile_count .tile_stats_count span {
+    font-size: 20px;
+}
+.tile_count .tile_stats_count .count_top {
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+
+}
+.tile_count .tile_stats_count .count_top::after {
+    content: '';
+    position: absolute;
+    left: 40%;
+    bottom: -6px;
+    height: 2px;
+    width: 30px;
+    background-color: deeppink;
+}
+.tile_stats_count .count > span{
+    margin-right: 5px;
+    background: #dec5c6;
+    padding: 15px 10px 10px 10px;
+    display: inline-block;
+    line-height: 8px;
+    color: #060606;
+    border-radius: 50%;
+}
+.select2-container {
+    width: 100% !important;
+    padding: 0;
+    text-align: left;
+    color: #555;
+}
+
+.form-horizontal .checkbox.has_advance {
+    min-height: 35px;
+    border: 1px solid rgba(85, 85, 85, 0.35);
+    width: 100%;
+    display: block;
+    text-align: left;
+    padding: 7px 0 0 10px;
+}
+/* Custom CSS Likaspro.com */
+
+.daterange_label{
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 8px;
+    opacity: 1;
+    font-weight: 700;
+}
+.po_advance_percent{
+    position: absolute;
+    left: 3%;
+    bottom: 22px;
+    color: deepskyblue;
+    font-size: 12px;
+}
+.btn_details {
+    width: 16%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(11, 98, 164, 0.98);
+    color: #fff;
+    position: absolute;
+    left: 42%;
+    top: -8px;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+.btn_details:hover{
+    color: #fff;
+    background: darkred;
+}
+.x_content:hover .btn_details{
+    display: block;
+}
+
+.product_name{
+    position: absolute;
+    top: 0%;
+    left: 29%;
+    color: rgba(51, 170, 210, 0.97);
+    font-weight: 600;
+    font-size: 32px;
+    z-index: 1;
+    width: 42%;
+    text-align: center;
+    font-family: 'Raleway','Roboto', sans-serif;
+    text-transform: capitalize;
+}
+.dropdown-usermenu img{
+    display: block;
+    width: 100%;
+    padding: 25px 20px;
+    border: 1px solid #d9dee473;
+}
+
+
+.tile_stats_count .count .bin_number {
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: lightblue;
+    padding: 5px 0;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    color: darkslategrey;
+}
+
+
+.collectoin_summery *{
+    font-size: 20px;
+    line-height: 45px;
+}
+.collectoin_summery .table-bordered>tbody>tr>th{
+    vertical-align: middle;
+}
+.btn_edit, .btn_delete, .btn_receive, .btn_send{
+    cursor: pointer;
+}
+.custom_select{
+    width: 100%;
+    min-height: 33px;
+}
+.label_lightseagreen{
+    background-color: lightseagreen;
+    color: rgba(255,255,255,0.9);
+}
+.profile_details .profile_view {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.profile_details .profile_view .left {
+    margin-top: 0;
+}

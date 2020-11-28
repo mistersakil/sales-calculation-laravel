@@ -1,0 +1,1 @@
+SELECT sum(total_amount) as total_collection, sum( (now() <= `advance_receive_date`) * advance_amount) as pending_on_po, sum( (now() > `advance_receive_date`) * advance_amount) as received, (sum(total_amount) - sum( (now() > `advance_receive_date`) * advance_amount) ) as pending__total FROM projects

@@ -1,0 +1,60 @@
+
+/* optional Container STYLES */
+.treant_chart { height: auto; margin: 5px; width: 95%;  }
+.Treant > .node {  }
+.Treant > p { 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", "sans-serif"; 
+    font-weight: bold; 
+    font-size: 12px; }
+.node-name { 
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #337ab7;
+}
+.node-amount { 
+    font-weight: bold;
+    font-size: 20px;
+    color: #8a6d3b;
+}
+.nodeExample1 {
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    width: 200px;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+    transition: all 200ms linear;
+}
+.nodeExample1:hover{
+    transform: scale(1.15);
+    background-color: lightgreen;
+}
+
+.nodeExample1 img {
+    margin-right:  10px;
+}
+
+.treant_gray {
+    background-color: #909090;
+}
+
+.treant_light_gray {
+    background-color: #D3D3C7;
+}
+
+.treant_blue {
+    background-color: #A2BDFD;
+}
+.treant_dark_red {
+    background-color: #8b0000;
+}
+
+.treant_dark_green {
+    background-color: #006400;
+}
